@@ -1,5 +1,5 @@
 {
-	"name":"ryan/oss",
+	"name":"cloud/oss",
 	"description":"对象云存储适配器，阿里、腾讯、七牛一套API",
 	"version":"1.0.1",
 	"authors":[
