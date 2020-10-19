@@ -1,0 +1,23 @@
+{
+	"name":"wwd/oss",
+	"description":"对象云存储适配器，阿里、腾讯、七牛一套API",
+	"version":"1.0.1",
+	"license": "MIT",
+	"minimum-stability": "stable",
+	"authors":[
+		{
+			"name":"ryan",
+			"email":"1458790210@qq.com"
+		}
+	],
+	"autoload":{
+		"psr-4": {
+			"Cloud\\Oss\\": "src"
+		}
+	},
+	"require":{
+		"qiniu/php-sdk": "^7.2",
+		"qcloud/cos-sdk-v5": "^2.0",
+		"aliyuncs/oss-sdk-php": "^2.3"
+	}
+}
